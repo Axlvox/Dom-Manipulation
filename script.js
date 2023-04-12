@@ -9,3 +9,9 @@ function alteraCor() {
     changeColor.style.background = 'rgb(76, 164, 109)';
 };
 alteraCor();
+
+function alteraCorRed() {
+    let changeColor = document.getElementsByClassName('center-content')[0];
+    changeColor.style.background = 'white';
+};
+alteraCorRed();
