@@ -15,3 +15,9 @@ function alteraCorRed() {
     changeColor.style.background = 'white';
 };
 alteraCorRed();
+
+function alteraTitulo() {
+    let changeTitle = document.getElementsByTagName('h1')[0];
+    changeTitle.innerHTML = 'Desafio - JavaScript'
+};
+alteraTitulo();
