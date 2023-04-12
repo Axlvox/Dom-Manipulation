@@ -27,3 +27,13 @@ function alteraLetra() {
     changeLetter.innerHTML = changeLetter.innerHTML.toUpperCase();
 };
 alteraLetra();
+
+function alteraTag() {
+    let changeTag = document.getElementsByTagName('p');
+    let textos = '';
+    for (let index = 0; index < changeTag.length - 1; index += 1) {
+        textos += changeTag[index].innerText + ' ';
+    }
+    changeTag[3].innerText = textos;
+}
+alteraTag();
