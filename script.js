@@ -21,3 +21,9 @@ function alteraTitulo() {
     changeTitle.innerHTML = 'Desafio - JavaScript'
 };
 alteraTitulo();
+
+function alteraLetra() {
+    let changeLetter   = document.getElementsByTagName('p')[0];
+    changeLetter.innerHTML = changeLetter.innerHTML.toUpperCase();
+};
+alteraLetra();
